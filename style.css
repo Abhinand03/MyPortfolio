@@ -1239,3 +1239,85 @@ transition: .4s;
     .h1-contact{
 
     }
+  .cont-inp{
+    
+    width: 95%;
+    background: transparent;
+    border: solid 1px;
+    /* border: 0px; */
+    height: 53px;
+    border-radius: 20px;
+    /* margin-left: 16px; */
+    font-size: 22px;
+    /* margin-right: -100px; */
+    padding: 15px;
+
+  }
+  .cont-inp::placeholder{
+    position: relative;
+    left: 30px;
+  
+  }
+ 
+  .cont-inp2{
+    padding: 15px;
+    height: 102px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: -4px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .cont-inp2::placeholder{
+    position: relative;
+    left: 10px;
+    top: 5pxpx;
+  }
+  .cont-inp3{
+    margin-left: 15px;
+  }
+  
+
+
+
+/* contact media qury */
+
+@media (max-width:1200px){
+  .inp-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 67%;
+
+  }
+  .cont-inp2{
+  padding: 15px;
+  height: 102px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: -4px;
+  width: 100%;
+  overflow: hidden;
+  /* position: relative;
+  left: 63px; */
+  }
+  .cont-inp{
+    
+    width: 100%;
+    background: transparent;
+    border: solid 1px;
+    /* border: 0px; */
+    height: 53px;
+    border-radius: 20px;
+    /* margin-left: 16px; */
+    font-size: 22px;
+    /* margin-right: -100px; */
+    padding: 15px;
+  }
+  .cont-inp3{
+    margin-left: 0px;
+  }
+
+}
