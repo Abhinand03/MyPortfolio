@@ -129,6 +129,20 @@ body{
     color:#323a49;
     font-weight: 600;
  }
+
+ @media (max-width: 580px){
+  .m-intro{
+    /* margin-left: 31px; */
+    margin-top: 57px;
+  }
+
+ }
+ @media (max-width:440px){
+  .m-intro{
+    margin-left: 31px;
+    margin-top: 57px;
+  }
+ }
  
  /* glowing button start*/
  .btn1 {
@@ -216,6 +230,12 @@ body{
         margin-left: 20px;
         color:#D8EBE4 ;
       }
+}
+@media(max-width:440px){
+  #abhout{
+    margin-top: 0px;
+  }
+  
 }
 
 
@@ -318,6 +338,24 @@ body{
     
     
 
+  }
+  @media (max-width:440px){
+    .timeline{
+    color: white;
+    margin-top: 16px;
+    background-color: #346751;
+    border-radius: 20px;
+    padding: 17px;
+    height: 110px;
+    width: 315px;
+    margin-left: 20px;
+  }
+  .ed-h1{
+    font-size: 22px;
+  }
+  .ed-p{
+    font-size: 14px;
+  }
   }
 
 
@@ -709,6 +747,13 @@ body{
 }
 .skil-h:hover{
   font-size: px;
+}
+
+@media (max-width:440px){
+  #skill{
+    position: relative;
+    top: 445px;
+  }
 }
 
 
@@ -1226,6 +1271,12 @@ transition: .4s;
     
     
     }
+    @media (max-width:440px){
+      #project-main{
+        position: relative;
+        top: 755px;
+      }
+    }
 
 
 
@@ -1409,3 +1460,10 @@ transition: .4s;
     margin-top: 55px;
   }
 }
+@media (max-width:440px){
+  .contact{
+    position: relative;
+    top: 965px;
+  }
+}
+
