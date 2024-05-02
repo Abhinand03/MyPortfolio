@@ -17,14 +17,16 @@
 body{
     /* 022C43 */
     /* background-color:#5F8670; */
-    background: #22252c;
+    /* background: #22252c; */
+    background: #020616;
+
     /* #007580 */
 
     /* #1E2524; */
 }
 
 .nav-b{
-    background-color:#5F8670;
+    background-color:#323a49;
 }
 .logo{
     width: 115px;
@@ -64,7 +66,7 @@ body{
     background-color: red;
 }
 .na-main{
-    background-color:#5F8670;
+    background-color:#323a49;
     transition: 1s;
     
 
@@ -124,7 +126,7 @@ body{
 
 }
  .ch-text {
-    color:rebeccapurple;
+    color:#323a49;
     font-weight: 600;
  }
  
@@ -1277,8 +1279,43 @@ transition: .4s;
   .cont-inp3{
     margin-left: 15px;
   }
-  
+  .cont-btn{
+    background: transparent;
+    width: 152px;
+    border: 3px solid #346751;
+    height: 56px;
+    font-size: 25px;
+    color: #346751;
+    border-radius: 10px;
+    transition: 1s;
 
+  }
+  .cont-btn:hover{
+    background-color: #346751;
+    color: black;
+    border-radius: 20px;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .cont-link{
+    margin-left: 21px;
+    font-size: 33px;
+    border: 2px solid #346751;
+    padding: 16px;
+    border-radius: 29px;
+    transition: .5s;
+  }
+  .cont-link:hover{
+    background-color:#346751;
+  }
+.cont-hr{
+  margin-top: 210px;
+}
+.cont-copy{
+  margin-top: 20px;
+}
 
 
 /* contact media qury */
@@ -1318,6 +1355,23 @@ transition: .4s;
   }
   .cont-inp3{
     margin-left: 0px;
+  }
+
+}
+
+@media (max-width:800px){
+  .cont-inp{
+    
+    width: 100%;
+    background: transparent;
+    border: solid 1px;
+    /* border: 0px; */
+    height: 53px;
+    border-radius: 20px;
+    /* margin-left: 16px; */
+    font-size: 18px;
+    /* margin-right: -100px; */
+    padding: 15px;
   }
 
 }
