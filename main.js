@@ -27,8 +27,8 @@ ScrollReveal().reveal('.timeline', { interval: 500 });
 ScrollReveal().reveal('.s0', { interval: 100 });
 ScrollReveal().reveal('.m-intro', { delay: 500, origin: 'right', enter: 'center' });
 ScrollReveal().reveal('.img-div', { delay: 500, origin: 'left', enter: 'bottom' });
-// ScrollReveal().reveal('.card1', { delay: 500, origin: 'left', enter: 'bottom' });
-// ScrollReveal().reveal('.sc-car', { delay: 500, origin: 'right', enter: 'bottom' });
+ScrollReveal().reveal('.ab-para', { delay: 500, origin: 'left', enter: 'bottom' });
+ScrollReveal().reveal('.img-di', { delay: 500, origin: 'right', enter: 'bottom' });
 
 
 $('.owl-carousel').owlCarousel({
