@@ -1416,17 +1416,17 @@ transition: .4s;
   .cont-link{
     margin-left: 8px;
     font-size: 22px;
-    border: 2px solid #346751;
+    border: 2px solid #ed4016;
     padding: 9px;
     border-radius: 29px;
     transition: .5s;
   }
   .cont-btn{
     width: 107px;
-    border: 2px solid #346751;
+    border: 2px solid #ed4016;
     height: 42px;
     font-size: 16px;
-    color: #346751;
+    color: #ed4016;
     border-radius: 10px;
     transition: 1s;
   }
