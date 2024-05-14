@@ -2,7 +2,7 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    color: #D8EBE4;
+    color: white;
   
       font-family: "Tilt Neon", sans-serif;
       font-optical-sizing: auto;
@@ -54,7 +54,7 @@ body{
 
 }
 .ho-h:hover{
-  color:#FF9800;
+  color:#ed4016;
   font-size: 27px;
 }
 
@@ -66,13 +66,13 @@ body{
     background-color: red;
 }
 .na-main{
-    background-color:#323a49;
+    background-color:#1e3b45;
     transition: 1s;
     
 
 }
 .bg-change{
-    background-color:#343B3C;
+    background-color:#1e3b45;
     transition: 1s;
 
     
@@ -87,22 +87,23 @@ body{
 /* side bar content change */
 @media(max-width: 991px)
 {
-    .sidebar
+    .side1
     {
         /* From https://css.glass */
       background: rgba(255, 255, 255, 0.05);
       border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
       backdrop-filter: blur(8.5px);
-      -webkit-backdrop-filter: blur(8.5px);
-      border: 1px solid rgba(255, 255, 255, 0.48);
+      -webkit-backdrop-filter: blur(8.5px); 
+       border: 1px solid rgba(255, 255, 255, 0.48);
         
     }
     .hh{
         color: red;
     }
     .ho-h{
-        margin-left: 10px;
+        margin-left: 20px;
+        
     }
     
 
@@ -117,7 +118,7 @@ body{
 
 }
 .h1-abhi{
-    color:#346751;
+    color:#ed4016;
 
 }
 .img-div{
@@ -126,7 +127,7 @@ body{
 
 }
  .ch-text {
-    color:#323a49;
+    color:#ed4016;;
     font-weight: 600;
  }
 
@@ -146,45 +147,24 @@ body{
  
  /* glowing button start*/
  .btn1 {
-    width: 160px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+  width: 144px;
+  height: 47px;
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+  border: solid 2px #1e3b45;
+  transition: 1s;
+
   }
   
   .btn1:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    background-color: #1e3b45;
+
+
+   
   }
   
-  .btn1:focus {
-    outline: none;
-  }
-  
-  .btn1.btn {
-    background-image: linear-gradient(
-      to right,
-      #5d9ccf,
-      #0361e4,
-      #d871fa,
-      #19a3e8
-    );
-    box-shadow: 0 4px 15px 0 rgba(10, 193, 229, 0.75);
-  }
+ 
   /* glowing button  end */
 
 
@@ -258,7 +238,7 @@ body{
   .timeline{
     color: white;
     margin-top: 16px;
-    background-color:#346751;
+    background-color:#1e3b45;
     border-radius: 20px;
     padding: 17px;
     height: 135px;
@@ -286,7 +266,7 @@ body{
   .edu-arrow{
     width: 9px;
     height: 350px;
-    background: #C84B31;
+    background: #ed4016;
     position: absolute;
     left: 49%;
     border-radius: 14px;
@@ -343,7 +323,7 @@ body{
     .timeline{
     color: white;
     margin-top: 16px;
-    background-color: #346751;
+    background-color: #1e3b45;
     border-radius: 20px;
     padding: 17px;
     height: 110px;
@@ -774,7 +754,10 @@ body{
  margin-left: 15px;
 
 }
-
+.pr-h1{
+  position: relative;
+  top: 85px;
+}
 
 .card1-main{
   position: relative;
@@ -1062,11 +1045,6 @@ transition: .4s;
   
   }
 
-
-
-
-
-  
   .card1:hover .intro2{
     height: 302px;
     width: 450px;
@@ -1333,17 +1311,17 @@ transition: .4s;
   .cont-btn{
     background: transparent;
     width: 152px;
-    border: 3px solid #346751;
+    border: 3px solid #ed4016;
     height: 56px;
     font-size: 25px;
-    color: #346751;
+    color: #ed4016;
     border-radius: 10px;
     transition: 1s;
 
   }
   .cont-btn:hover{
-    background-color: #346751;
-    color: black;
+    background-color: #ed4016;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 140px;
     height: 50px;
@@ -1353,13 +1331,13 @@ transition: .4s;
   .cont-link{
     margin-left: 21px;
     font-size: 33px;
-    border: 2px solid #346751;
+    border: 2px solid #ed4016;
     padding: 16px;
     border-radius: 29px;
     transition: .5s;
   }
   .cont-link:hover{
-    background-color:#346751;
+    background-color:#ed4016;
   }
 .cont-hr{
   margin-top: 100px;
