@@ -776,7 +776,7 @@ body{
 
 }
 .intro1{
-  background: rgba(0, 0, 0, 0.23);
+  background: rgba(0, 0, 0, 0.73);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.4px);
@@ -857,7 +857,7 @@ transition: .4s;
 
 }
 .intro1{
-  background: rgba(0, 0, 0, 0.23);
+  background: rgba(0, 0, 0, 0.73);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.4px);
@@ -955,7 +955,7 @@ transition: .4s;
   
   }
   .intro1{
-    background: rgba(0, 0, 0, 0.23);
+    background: rgba(0, 0, 0, 0.73);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.4px);
@@ -971,7 +971,7 @@ transition: .4s;
   
   }
   .intro2{
-    background: rgba(0, 0, 0, 0.23);
+    background: rgba(0, 0, 0, 0.73);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.4px);
@@ -1106,7 +1106,7 @@ transition: .4s;
     
     }
     .intro1{
-      background: rgba(0, 0, 0, 0.23);
+      background: rgba(0, 0, 0, 0.73);
       border-radius: 16px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(5.4px);
@@ -1122,7 +1122,7 @@ transition: .4s;
     
     }
     .intro2{
-      background: rgba(0, 0, 0, 0.23);
+      background: rgba(0, 0, 0, 0.73);
       border-radius: 16px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(5.4px);
